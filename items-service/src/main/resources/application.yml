@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: "items-service"
+
+server:
+  port: 9901
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+          - "*"
